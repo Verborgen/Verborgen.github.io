@@ -1,4 +1,4 @@
-<b><font color=Blue size=7 >简介：</font></b>
+<font color=#0099ff size=5 face="黑体">简介：</font>
 
 # 炫酷、霸气侧漏的Github主题，用了都说好。
 
