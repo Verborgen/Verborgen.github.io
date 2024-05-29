@@ -5,7 +5,7 @@
 
 <img src="https://cdn.jsdelivr.net/gh/Verborgen/PicGo@main//%E5%B8%83%E5%8A%A0%E8%BF%AA.png" width="600px">
 
-## 借鉴codepen平台上[ParticleVisual](https://codepen.io/y_endo/pen/gObOxoM)
+ 借鉴codepen平台上[ParticleVisual](https://codepen.io/y_endo/pen/gObOxoM)
 
 <img src="https://cdn.jsdelivr.net/gh/Verborgen/PicGo@main//f%20i%20g%20e%20r.png" width="600px">
 
