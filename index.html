@@ -1,77 +1,45 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            我的网页
-        </title>
-        <link rel="stylesheet" href="major.css">
-        <style>
-            h1 { font-family: "KaiTi", serif; font-weight: bold; font-style: oblique;
-            color: red; } h2 { font-family: "SimSun", serif; font-weight: bold; font-style:
-            italic; color: red; } body { margin: 0; padding: 0; height: 100vh; width:
-            100vw; background-image: url('https://cdn.jsdelivr.net/gh/Verborgen/PicGo@main//%E5%B8%83%E5%8A%A0%E8%BF%AAChiron-v92vx3.jpg');
-            background-size: cover; /* 确保图片覆盖整个背景 */ background-position: center; /*
-            图片居中显示 */ } /* 样式 */ .social-links { display: flex; /* 将链接排列在同一行 */ margin-bottom:
-            20px; /* 添加底部边距 */ } .social-link { margin-right: 10px; /* 添加右侧边距 */ }
-            .social-link img { width: 30px; /* 调整图片大小 */ height: auto; /* 保持宽高比 */
-            } #chart-container { width: 600px; /* 设置图表容器宽度 */ height: 400px; /* 设置图表容器高度
-            */ margin: 20px auto; /* 将图表居中 */ }
-        </style>
-    </head>
-    
-    <body>
-        <h1>
-            欢迎参观我的座驾
-        </h1>
-        <div>
-            <h2>
-                CALL ME ：
-                <class="social-links">
-                    <a href="https://github.com/Verborgen" target="_blank" class="social-link">
-                        <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000"
-                        alt="GitHub">
-                    </a>
-                    <a href="mailto:w442990192@gmail.com" target="_w442990192@gmail.com" class="social-link">
-                        <img src="https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000"
-                        alt="Gmail">
-                    </a>
-                    <a href="https://www.youtube.com/@feige5545" target="_blank" class="social-link">
-                        <img src="https://img.icons8.com/?size=100&id=98964&format=png&color=000000"
-                        alt="youtube">
-                    </a>
-                    <a href="https://www.instagram.com/wyfiger/" target="_blank" class="social-link">
-                        <img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000"
-                        alt="instagram">
-                    </a>
-            </h2>
-            <div id="chart-container">
-            </div>
-            <script src="https://cdn.jsdelivr.net/npm/chart.js">
-            </script>
-            <script>
-                var ctx = document.getElementById('chart-container').getContext('2d');
-                var chart = new Chart(ctx, {
-                    type: 'bar',
-                    // 图表类型
-                    data: {
-                        labels: ['数据1', '数据2', '数据3'],
-                        // 标签
-                        datasets: [{
-                            label: '我的数据集',
-                            // 数据集名称
-                            data: [10, 20, 30],
-                            // 数据
-                            backgroundColor: ['red', 'blue', 'green'] // 数据条颜色
-                        }]
-                    },
-                    options: {
-                        // ... 其他图表选项
-                    }
-                });
-            </script>
-    </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <canvas id="canvas">
+  </canvas>
+  <title>炫富小子</title>
+  <link rel="stylesheet" href="major.css">
+  <script src="myscript.js"></script>
+  <style>
+  h1 { font-family: "KaiTi", serif; font-weight: bold; font-style: oblique;
+                color: red; font-size: 30px/*字体大小 */} h2 { font-family: "SimSun", serif; font-weight: bold; font-style:
+                italic; color: red; font-size: 30px/*字体大小 */} body { margin: 0; padding: 0; height: 100vh; width:
+                100vw; background-image: url('https://cdn.jsdelivr.net/gh/Verborgen/PicGo@main//%E5%B8%83%E5%8A%A0%E8%BF%AAChiron-v92vx3.jpg');
+                background-size: cover; /* 确保图片覆盖整个背景 */ background-position: center; /*
+                图片居中显示 */ } /* 样式 */ .social-links { display: flex; /* 将链接排列在同一行 */ margin-bottom:
+                20px; /* 添加底部边距 */ } .social-link { margin-right: 10px; /* 添加右侧边距 */ }
+                .social-link img { width: 30px; /* 调整图片大小 */ height: auto; /* 保持宽高比 */
+                } #chart-container { width: 600px; /* 设置图表容器宽度 */ height: 400px; /* 设置图表容器高度
+                */ margin: 20px auto; /* 将图表居中 */ }
+  </style>
+</head>
+
+<body>
+  <h1>欢迎参观我的座驾</h1>
+  <h2>CALL ME ：
+    <class="social-links">
+      <a href="https://github.com/Verborgen" target="_blank" class="social-link">
+        <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="GitHub">
+      </a>
+      <a href="mailto:w442990192@gmail.com" target="_w442990192@gmail.com" class="social-link">
+        <img src="https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000" alt="Gmail">
+      </a>
+      <a href="https://www.youtube.com/@feige5545" target="_blank" class="social-link">
+        <img src="https://img.icons8.com/?size=100&id=98964&format=png&color=000000" alt="youtube">
+      </a>
+      <a href="https://www.instagram.com/wyfiger/" target="_blank" class="social-link">
+        <img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="instagram">
+      </a>
+  </h2>
+</body>
 
 </html>
