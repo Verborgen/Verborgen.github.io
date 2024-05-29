@@ -1,4 +1,4 @@
-简介:'#RRGGBB'
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
 # 炫酷、霸气侧漏的Github主题，用了都说好。
 
