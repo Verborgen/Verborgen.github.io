@@ -1,6 +1,6 @@
 简介：
 
-	<h1>[炫酷、霸气侧漏的Github主题，用了都说好。]</h1>  **bold text**
+	<h1>[炫酷、霸气侧漏的Github主题，用了都说好。] **bold text**</h1>
 
 demo：[Verborgen.github.io](https://verborgen.github.io/)
 
