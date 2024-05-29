@@ -1,7 +1,7 @@
 h1 {
   position: fixed; /* 将元素定位为相对或绝对  */
   bottom: 1; /* 将元素放置在容器的底部  */
-  transform: translate(0%, -100%); /* 将元素向左和向上移动 50%，以使其居中  */
+  transform: translate(0%, -50%); /* 将元素向左和向上移动 50%，以使其居中  */
   font-size: 30px/*字体大小 */
  
 }
