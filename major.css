@@ -13,14 +13,14 @@ h1 {
   position: relative; /* 将元素定位为相对或绝对  */
   bottom: 1; /* 将元素放置在容器的底部  */
   left: 1.5%; /* 将元素的左侧边缘放置在容器的 50% 位置  */
-  transform: translate(0%, -1800%); /* 将元素向左和向上移动 50%，以使其居中  */ 
+  transform: translate(0%, -1900%); /* 将元素向左和向上移动 50%，以使其居中  */ 
 }
 
 h2 {
   position: fixed; /* 将元素定位为相对或绝对  */
   bottom: 0; /* 将元素放置在容器的底部  */
   left: 50%; /* 将元素的左侧边缘放置在容器的 50% 位置  */
-  transform: translate(-50%,-50%); /* 将元素向左和向上移动 50%，以使其居中  */
+  transform: translate(-50%,-25%); /* 将元素向左和向上移动 50%，以使其居中  */
 #chart-container {
     width: 12%;
     height: 10%; 
