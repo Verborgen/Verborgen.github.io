@@ -6,7 +6,7 @@ demo：[Verborgen.github.io](https://verborgen.github.io/)
 
 代码采纳codepen平台上[ParticleVisual](https://codepen.io/y_endo/pen/gObOxoM)
 
-[![](https://img.shields.io/badge/author-Jueee-green)](https://verborgen.github.io/)
+[![](https://img.shields.io/badge/author-Jueee-green),https://img.icons8.com/?size=100&id=57927&format=png&color=000000](https://verborgen.github.io/)
 
 
 
